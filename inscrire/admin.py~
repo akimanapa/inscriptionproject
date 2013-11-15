@@ -1,0 +1,4 @@
+from django.contrib import admin
+from inscrire.models import Faculte
+
+admin.register.site(Faculte)
