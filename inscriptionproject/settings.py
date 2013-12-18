@@ -12,10 +12,10 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'inscrire1',                      # Or path to database file if using sqlite3.
+        'NAME': '',                      # Or path to database file if using sqlite3.
        
-        'USER': 'helpdeskadmin',
-        'PASSWORD': 'Kigabo47**',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': '',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
         'PORT': '',                      # Set to empty string for default.
     }
@@ -108,7 +108,7 @@ ROOT_URLCONF = 'inscriptionproject.urls'
 WSGI_APPLICATION = 'inscriptionproject.wsgi.application'
 
 TEMPLATE_DIRS = (
-      '/home/helpdeskadmin/Mesprojects/insrciptionproject/templates'
+      '/home/helpdeskadmin/Mesprojects/inscriptionproject/templates'
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
